@@ -12,6 +12,14 @@
 		<spring.version>4.3.8.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<!-- link backend project to this front end -->
+		<dependency>
+			<groupId>net.nitish</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
+
 		<!--JSTL dependency -->
 		<dependency>
 			<groupId>jstl</groupId>
